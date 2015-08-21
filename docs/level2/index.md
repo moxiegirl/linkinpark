@@ -1,7 +1,8 @@
 +++
 title = "Level2 Index"
 [menu.main]
-parent="level2_root"
+parent="project_index"
+identifier="level2_root"
 +++
 
 # Level2 Index
@@ -10,6 +11,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum dapibu
 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum dapibus facilisis. 
+
+Go up to [project root](../rootfile.md)
 
 Nulla gravida nulla non mattis commodo. Cras rhoncus nibh rutrum mi dapibus imperdiet vel a felis. 
 

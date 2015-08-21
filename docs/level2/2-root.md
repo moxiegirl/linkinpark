@@ -1,8 +1,7 @@
 +++
 title = "Level2 Root"
 [menu.main]
-parent="project_index"
-identifier="level2_root"
+parent="level2_root"
 +++
 
 # Level2 Root

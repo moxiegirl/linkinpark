@@ -8,6 +8,7 @@ identify="project_index"
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum dapibus facilisis. Nulla gravida nulla non mattis commodo. Cras rhoncus nibh rutrum mi dapibus imperdiet vel a felis. Praesent ultricies ipsum dolor, ac hendrerit ipsum accumsan quis. Morbi ac ex a sapien consequat malesuada vitae.
 
+![](../level2/images/notifications.png)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum dapibus facilisis. 
 
@@ -17,3 +18,6 @@ Praesent ultricies ipsum dolor, ac hendrerit ipsum accumsan quis. Morbi ac ex a 
 
 
 ## Project Index Head 2
+
+
+Go up to [project root](rootfile.md)
