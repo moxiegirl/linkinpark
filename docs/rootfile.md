@@ -27,4 +27,4 @@ Praesent ultricies ipsum dolor, ac hendrerit ipsum accumsan quis. Morbi ac ex a 
 
 An image:
 
-![add](./level2/images/baldwin.gif) works/github and build
+![add](level2/images/baldwin.gif) works/github and build
