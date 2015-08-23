@@ -19,4 +19,13 @@ Praesent ultricies ipsum dolor, ac hendrerit ipsum accumsan quis. Morbi ac ex a 
 
 ## Level3 Root Head 3
 
-Go up to [project root](../../rootfile.md)
+* [Project root](../../rootfile.md)
+* [Project index](../../index.md)
+* [Level2 root](../2-root.md)
+* [Level2 index](../index.md)
+* [Level3 root](../level2/level3/3-root.md)
+* [Level3 index](../level2/level3/index.md)
+
+An image:
+
+![add](../images/baldwin.gif)

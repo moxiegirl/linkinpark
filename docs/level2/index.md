@@ -12,7 +12,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum dapibu
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum dapibus facilisis. 
 
-Go up to [project root](../rootfile.md)
 
 Nulla gravida nulla non mattis commodo. Cras rhoncus nibh rutrum mi dapibus imperdiet vel a felis. 
 
@@ -20,3 +19,14 @@ Praesent ultricies ipsum dolor, ac hendrerit ipsum accumsan quis. Morbi ac ex a 
 
 
 ## Level2 Index Head 2
+
+* [Project root](../rootfile.md)
+* [Project index](../index.md)
+* [Level2 root](../level2/2-root.md)
+* [Level2 index](../level2/index.md)
+* [Level3 root](level3/3-root.md)
+* [Level3 index](level3/index.md)
+
+An image:
+
+![add](./images/baldwin.gif)
