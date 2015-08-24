@@ -6,6 +6,6 @@ RUN apt-get install ssed
 # To get the git info for this repo
 COPY . /src
 
-COPY . /docs/content/compose/
+COPY . /docs/content/linkinpark/
 
 RUN /src/pre-process.sh /docs

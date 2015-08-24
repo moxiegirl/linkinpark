@@ -29,7 +29,7 @@ do
          -e '/^<!.*metadata]>/g' \
          -e '/^<!.*end-metadata.*>/g' {} \;
       ;;
-      "/docs/content/compose")
+      "/docs/content/linkinpark")
         y=${i##*/}
         find . -type f -name "*.md" -exec ssed -R -i.old  \
         -e '/^<!.*metadata]>/g' \

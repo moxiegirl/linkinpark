@@ -18,21 +18,17 @@ Praesent ultricies ipsum dolor, ac hendrerit ipsum accumsan quis. Morbi ac ex a 
 
 ## Project Root Head 2
 
-* [Project root](rootfile.md) rootfile.md
-* [Project index](index.md) index.md
-* [Level2 root](level2/2-root.md) level2/2-root.md
-* [Level2 index](level2/index.md) level2/index.md
-* [Level3 root](level2/level3/3-root.md) level2/level3/3-root.md
-* [Level3 index](level2/level3/index.md) level2/level3/index.md
+* [Project root](rootfile.md) `rootfile.md`  Gy Sy
+* [Project index](index.md) `index.md` Gy Sy
+* [Level2 root](level2/2-root.md) `level2/2-root.md` Gy Sy
+* [Level2 index](level2/index.md) `level2/index.md` Gy Sy
+* [Level3 root](level2/level3/3-root.md) `level2/level3/3-root.md` Gy Sy
+* [Level3 index](level2/level3/index.md) `level2/level3/index.md` Gy Sy
 
 An image:
 
 `level2/images/baldwin.gif`  Gy Sn
 ![add](level2/images/baldwin.gif)
-
-`/level2/images/baldwin.gif`  Gy Sn
-![add](/level2/images/baldwin.gif)
-
 
 `../level2/images/baldwin.gif` Gn Sy
 ![add](../level2/images/baldwin.gif)
