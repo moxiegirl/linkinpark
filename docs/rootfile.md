@@ -30,6 +30,9 @@ An image:
 `level2/images/baldwin.gif`  Gy Sn
 ![add](level2/images/baldwin.gif)
 
+`/level2/images/baldwin.gif`  Gy Sn
+![add](/level2/images/baldwin.gif)
 
-`../level2/images/baldwin.gif`
+
+`../level2/images/baldwin.gif` Gn Sy
 ![add](../level2/images/baldwin.gif)
