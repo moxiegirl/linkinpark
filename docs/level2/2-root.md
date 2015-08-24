@@ -17,6 +17,8 @@ Praesent ultricies ipsum dolor, ac hendrerit ipsum accumsan quis. Morbi ac ex a 
 
 ## Level2 Root Head 2
 
+* [Project root](/rootfile.md) `/rootfile.md`
+* [Project index](/index.md) `/index.md`
 * [Project root](../rootfile.md) `../rootfile.md`
 * [Project index](../index.md) `../index.md`
 * [Level2 root](../level2/2-root.md) `../level2/2-root.m`
