@@ -1,7 +1,7 @@
 #!/bin/bash -ex
 
 # Populate an array with just docker dirs and one with content dirs
-content_dir=(`ls -d /docs/content/*`)
+content_dir=(`ls -d /docs/content/*/`)
 
 # Loop content not of docker/
 #
@@ -15,33 +15,32 @@ content_dir=(`ls -d /docs/content/*`)
 # 
 for i in "${content_dir[@]}"
 do
-   :
+  :
+  echo "Directory is" $i
+   dir="$(basename $i)"
+   dir="$(basename $dir)"
+   cd $i
    case $i in
-      "/docs/content/windows")
+      "/docs/content/windows/")
       ;;
-      "/docs/content/mac")
+      "/docs/content/mac/")
       ;;
-      "/docs/content/linux")
+      "/docs/content/linux/")
       ;;
-      "/docs/content/docker")
+      "/docs/content/docker/")
          y=${i##*/}
-         find . -type f -name "*.md" -exec ssed -R -i.old \
+         find $i -type f -name "*.md" -exec ssed -R -i.old \
          -e '/^<!.*metadata]>/g' \
          -e '/^<!.*end-metadata.*>/g' {} \;
       ;;
-      "/docs/content/linkinpark")
+      "/docs/content/linkinpark/")
         y=${i##*/}
-        find . -type f -name "*.md" -exec ssed -R -i.old  \
-        -e '/^<!.*metadata]>/g' \
-        -e '/^<!.*end-metadata.*>/g' \
-        -e 's/(\]\()(?!https)(\.{1,2}\/)(.[\S]*.md)(\#.[\S]*)?(\))/\1\{\{< relref "'$y'\/\3\4" >\}\}\)/g' \
-        -e 's/(\]\()(?!https)(\/)(.[\S]*)(.md)(\#.[\S]*)?(\))/\1\{\{< relref "'$y'\/\3\4" >\}\}\)/g' \
-        -e 's/(\()(?!http)([A-z]|[0-9])(.[\S]*)(.md)(\#.[\S]*)?(\))/\1\{\{< relref "'$y'\/\2\3\4\5" >\}\}\)/g' \
-        -e 's/(\]\()(?!https)(\.\/[A-z].*)(.gif|.png|.svg)(\))/\1.\2\3\4/g' {} \;
+        find $i -type f -name "*.md" -exec ssed -R -i.old \
+        -e 's/(\]\()(?!https)(\.{1,2}\/)(.[\S]*.md)(\#.[\S]*)?(\))/\1\{\{< relref "'$dir'\/\3\4\" >\}\}\)/g' {} \; 
       ;;
       *)
         y=${i##*/}
-        find . -type f -name "*.md" -exec ssed -R -i.old  \
+        find $i -type f -name "*.md" -exec ssed -R -i.old  \
         -e '/^<!.*metadata]>/g' \
         -e '/^<!.*end-metadata.*>/g' \
         -e 's/(\]\()(?!https)(\.{1,2}\/){1,4}(.[\S]*.md)(\#.[\S]*)?(\))/\1\{\{< relref "'$y'\/\3\4\5" >\}\}\)/g' {} \; 
