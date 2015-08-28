@@ -16,6 +16,7 @@ Parent docs/Root
 * [Project index](../index.md) `../index.md`  Gy Sy
 
 Current Directory docs/level2/files
+
 * [Level2 root](../level2/2-root.md) `../level2/2-root.m`  Gy Sy
 * [Level2 index](../level2/index.md) `../level2/index.md`  Gy Sy
 * [Level2 root](./level2/2-root.md) `./level2/2-root.m`  Gy Sy
@@ -29,10 +30,13 @@ Current Directory docs/level2/files
 * [Level2 index](level2/index.md) `level2/index.md`  Gn  Sy
 
 Subdirectory docs/level3/files
+
 * [Level3 root](level3/3-root.md) `level3/3-root.md` Gy Sn
 * [Level3 index](level3/index.md) `level3/index.md` Gy Sn
 * [Level3 index](/level2/level3/index.md) `/level2/level3/index.md` Gn  Sy
 * [Level3 root](/level2/level3/3-root.md) `/level2/level3/3-root.md`Gn  Sy
+* [Level3 index](../level2/level3/index.md) `../level2/level3/index.md` Gn  Sy
+* [Level3 root](../level2/level3/3-root.md) `../level2/level3/3-root.md`Gn  Sy
 
 An image:
 
@@ -41,3 +45,5 @@ An image:
 ![add](images/baldwin.gif) `images/baldwin.gif` Gy Sn  <-- fix
 
 ![add](/level2/images/baldwin.gif) `/level2/images/baldwin.gif` Gn Sn
+
+![add](../level2/images/baldwin.gif) `../level2/images/baldwin.gif` Gn Sn
