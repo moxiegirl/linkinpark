@@ -17,8 +17,7 @@ for i in "${content_dir[@]}"
 do
   :
   echo "Directory is" $i
-   dir="$(basename $i)"
-   dir="$(basename $dir)"
+   dir="$(basename $(basename $i))"
    cd $i
    case $i in
       "/docs/content/windows/")
@@ -36,7 +35,13 @@ do
       "/docs/content/linkinpark/")
         y=${i##*/}
         find $i -type f -name "*.md" -exec ssed -R -i.old \
-        -e 's/(\]\()(?!https)(\.{1,2}\/)(.[\S]*.md)(\#.[\S]*)?(\))/\1\{\{< relref "'$dir'\/\3\4\" >\}\}\)/g' {} \; 
+        -e '/^<!.*metadata]>/g' \
+        -e '/^<!.*end-metadata.*>/g' \
+        -e 's/(\]\()(?!https)(\.{1,2}\/){1,4}(.[\S]*.md)(\#.[\S]*)?(\))/\1\{\{< relref "'$dir'\/\3\4" >\}\}\)/g' \
+        -e 's/(\]\()(?!https)(\/)(.[\S]*)(.md)(\#.[\S]*)?(\))/\1\{\{< relref "'$dir'\/\3\4" >\}\}\)/g' \
+        -e 's/(\()(?!http)(.[\S]*)(.md)(\#.[\S]*)?(\))/\1\{\{< relref "'$dir'\/\2\3\4" >\}\}\)/g' \
+        -e 's/(\]\()(?!https)(\.\/[A-z].*)(.gif|.png|.svg)(\))/\1.\2\3\4/g' {} \;  
+
       ;;
       *)
         y=${i##*/}

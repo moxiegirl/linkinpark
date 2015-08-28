@@ -1,11 +1,9 @@
-FROM docs/base:hugo
+FROM docs/base:latest
 MAINTAINER Mary Anthony <mary@docker.com> (@moxiegirl)
-
-RUN apt-get install ssed
 
 # To get the git info for this repo
 COPY . /src
 
 COPY . /docs/content/linkinpark/
 
-RUN /src/pre-process.sh /docs
+RUN /src/pre-process.sh /docs/content
