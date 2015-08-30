@@ -40,9 +40,9 @@ Subdirectory docs/level3/files
 
 An image:
 
-![add](images/baldwin.gif) `images/baldwin.gif` Gy Sn  <-- fix
+![add](images/baldwin.gif) `images/baldwin.gif` Gy Sn  
 
-![add](./images/baldwin.gif) `./images/baldwin.gif` Gy Sy
+![add](./images/baldwin.gif) `./images/baldwin.gif` Gy Sn
 
 ![add](../images/baldwin.gif) `../images/baldwin.gif` Gy Sy
 
