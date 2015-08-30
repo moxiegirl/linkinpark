@@ -40,6 +40,8 @@ Subdirectory docs/level3/files
 * [Level3 root](../level2/level3/3-root.md) `../level2/level3/3-root.md`Gn  Sy
 * [Level3 index](docs/level2/level3/index.md) `docs/level2/level3/index.md` Gn  Sy
 * [Level3 root](docs/level2/level3/3-root.md) `docs/level2/level3/3-root.md`Gn  Sy
+* [Level3 index](/docs/level2/level3/index.md) `/docs/level2/level3/index.md` Gn  Sy
+* [Level3 root](/docs/level2/level3/3-root.md) `/docs/level2/level3/3-root.md`Gn  Sy
 
 An image:
 
