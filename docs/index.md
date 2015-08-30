@@ -20,12 +20,12 @@ Praesent ultricies ipsum dolor, ac hendrerit ipsum accumsan quis. Morbi ac ex a 
 ## List of pages
 
 
-* [Project root](rootfile.md) `rootfile.md` Gy Sy
-* [Project index](index.md) `index.md` Gy Sy
-* [Level2 root](level2/2-root.md) `level2/2-root.md` Gy Sy
-* [Level2 index](level2/index.md) `level2/index.md` Gy Sy
-* [Level3 root](level2/level3/3-root.md) `level2/level3/3-root.md` Gy Sy
-* [Level3 index](level2/level3/index.md) `level2/level3/index.md` Gy Sy
+* [Project root](rootfile.md) `/docs/rootfile.md` Gy Sy
+* [Project index](index.md) `/docs/index.md` Gy Sy
+* [Level2 root](level2/2-root.md) `/docs/level2/2-root.md` Gy Sy
+* [Level2 index](level2/index.md) `/docs/level2/index.md` Gy Sy
+* [Level3 root](level2/level3/3-root.md) `/docs/level2/level3/3-root.md` Gy Sy
+* [Level3 index](level2/level3/index.md) `/docs/level2/level3/index.md` Gy Sy
 
 An image:
 
