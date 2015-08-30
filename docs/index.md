@@ -1,7 +1,7 @@
 +++
 title = "Project Index"
 [menu.main]
-identify="project_index"
+identifier="project_index"
 +++
 
 # Project Index

@@ -2,7 +2,7 @@
 title = "Level2 Index"
 [menu.main]
 parent="project_index"
-identifier="level2_root"
+identifier="level2_index"
 +++
 
 # Level2 Index

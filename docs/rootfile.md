@@ -2,6 +2,8 @@
 title = "Project Root"
 [menu.main]
 parent="project_index"
+identifier="project_root"
+weight=-1
 +++
 
 # Project Root

@@ -1,7 +1,8 @@
 +++
 title = "Level2 Root"
 [menu.main]
-parent="level2_root"
+identifier="level2_root"
+parent="level2_index"
 +++
 
 # Level2 Root
