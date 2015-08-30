@@ -11,11 +11,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum dapibu
 
 
 Parent docs/Root
-
 * [Project root](/rootfile.md) `/rootfile.md` Gn Sy
 * [Project index](/index.md) `/index.md` Gn Sy
-* [Project root](../../rootfile.md) `../../rrootfile.md` Gy Sy
-* [Project index](../..index.md) `../../rindex.md`  Gy Sy
+* [Project root](../../rootfile.md) `../../rootfile.md` Gy Sy
+* [Project index](../../index.md) `../../index.md`  Gy Sy
 
 Level2 docs/level2/files
 
