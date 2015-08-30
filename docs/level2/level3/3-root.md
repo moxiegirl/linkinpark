@@ -33,8 +33,8 @@ Level2 docs/level2/files
 
 Current Directory docs/level2/level3/files
 
-* [Level3 root](3-root.md) `level3/3-root.md` Gy Sn
-* [Level3 index](index.md) `level3/index.md` Gy Sn
+* [Level3 root](3-root.md) `3-root.md` Gy Sn
+* [Level3 index](index.md) `index.md` Gy Sn
 * [Level3 root](level3/3-root.md) `level3/3-root.md` Gy Sn
 * [Level3 index](level3/index.md) `level3/index.md` Gy Sn
 * [Level3 root](./level3/3-root.md) `level3/3-root.md` Gy Sn
