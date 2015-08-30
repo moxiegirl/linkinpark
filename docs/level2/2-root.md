@@ -18,16 +18,16 @@ Parent docs/Root
 
 Current Directory docs/level2/files
 
-* [Level2 root](../level2/2-root.md) `../level2/2-root.m`  Gy Sy
+* [Level2 root](../level2/2-root.md) `../level2/2-root.md`  Gy Sy
 * [Level2 index](../level2/index.md) `../level2/index.md`  Gy Sy
-* [Level2 root](./level2/2-root.md) `./level2/2-root.m`  Gy Sy
+* [Level2 root](./level2/2-root.md) `./level2/2-root.md`  Gy Sy
 * [Level2 index](./level2/index.md) `./level2/index.md`  Gy Sy
 
 * [Level2 root](2-root.md) `2-root.md`  Gy Sn
 * [Level2 index](index.md) `index.md`  Gy Sn* (results but goes to root index)
-* [Level2 root](/level2/2-root.md) `/level2/2-root.m` Gn  Sy
+* [Level2 root](/level2/2-root.md) `/level2/2-root.md` Gn  Sy
 * [Level2 index](/level2/index.md) `/level2/index.md`  Gn  Sy
-* [Level2 root](level2/2-root.md) `level2/2-root.m`  Gn  Sy
+* [Level2 root](level2/2-root.md) `level2/2-root.md`  Gn  Sy
 * [Level2 index](level2/index.md) `level2/index.md`  Gn  Sy
 
 Subdirectory docs/level3/files

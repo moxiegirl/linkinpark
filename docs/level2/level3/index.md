@@ -31,7 +31,7 @@ Parent docs/Root
 
 Level2 docs/level2/files
 
-* [Level2 root](2-root.md) `2-root.m`  Gn Sn
+* [Level2 root](2-root.md) `2-root.md`  Gn Sn
 * [Level2 index](index.md) `index.md`  Gn Sy* live but goes project index
 
 * [Level2 root](../2-root.md) `../2-root.md`  Gn Sn
@@ -54,14 +54,17 @@ Current Directory docs/level2/level3/files
 * [Level3 root](./3-root.md) `./3-root.md` Gy Sn
 * [Level3 index](./index.md) `./index.md` Gy Sn
 
-* [Level3 root](./level3/3-root.md) `./level3/3-root.md` Gy Sn
-* [Level3 index](./level3/index.md) `./level3/index.md` Gy Sn
+* [Level3 root](./level3/3-root.md) `./level3/3-root.md` Gn Sn
+* [Level3 index](./level3/index.md) `./level3/index.md` Gn Sn
 
 * [Level3 root](/level2/level3/3-root.md) `/level2/level3/3-root.md`Gn  Sy
 * [Level3 index](/level2/level3/index.md) `/level2/level3/index.md` Gn  Sy
 
 * [Level3 root](../level2/level3/3-root.md) `../level2/level3/3-root.md`Gn  Sy
 * [Level3 index](../level2/level3/index.md) `../level2/level3/index.md` Gn  Sy
+
+* [Level3 root](../level2/level3/3-root.md) `docs/level2/level3/3-root.md`Gn  Sy
+* [Level3 index](../level2/level3/index.md) `docs/level2/level3/index.md` Gn  Sy
 
 An image:
 
