@@ -66,6 +66,9 @@ Current Directory docs/level2/level3/files
 * [Level3 root](../level2/level3/3-root.md) `docs/level2/level3/3-root.md`Gn  Sy
 * [Level3 index](../level2/level3/index.md) `docs/level2/level3/index.md` Gn  Sy
 
+* [Level3 root](../level2/level3/3-root.md) `/docs/level2/level3/3-root.md`Gn  Sy
+* [Level3 index](../level2/level3/index.md) `/docs/level2/level3/index.md` Gn  Sy
+
 An image:
 
 ![add](../images/baldwin.gif) `../images/baldwin.gif` Gy Sy
