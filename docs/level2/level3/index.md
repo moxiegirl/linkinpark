@@ -43,8 +43,8 @@ Level2 docs/level2/files
 * [Level2 root](../level2/2-root.md) `../level2/2-root.md`  Gn Sy
 * [Level2 index](../level2/index.md) `../level2/index.md`  Gn Sy
 
-* [Level2 index](../../level2/index.md) `../level2/../index.md`  Gn Sy
-* [Level2 index](../../level2/root.md) `../level2/../root.md`  Gn Sy
+* [Level2 root](../level2/../root.md) `../level2/../root.md`  Gn Sy
+* [Level2 index](../level2/../index.md) `../level2/../index.md`  Gn Sy
 
 Current Directory docs/level2/level3/files
 
