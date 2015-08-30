@@ -47,14 +47,4 @@ Subdirectory docs/level3/files
 
 An image:
 
-![add](images/baldwin.gif) `images/baldwin.gif` Gy Sn  
-
-![add](./images/baldwin.gif) `./images/baldwin.gif` Gy Sn
-
-![add](../images/baldwin.gif) `../images/baldwin.gif` Gy Sy
-
-![add](/level2/images/baldwin.gif) `/level2/images/baldwin.gif` Gn Sn
-
-![add](./level2/images/baldwin.gif) `./level2/images/baldwin.gif` Gn Sn
-
-![add](../level2/images/baldwin.gif) `../level2/images/baldwin.gif` Gn Sn
+![add](/docs/level2/images/baldwin.gif)

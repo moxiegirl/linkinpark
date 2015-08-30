@@ -21,7 +21,7 @@ Praesent ultricies ipsum dolor, ac hendrerit ipsum accumsan quis. Morbi ac ex a 
 
 
 * [Project root](/docs/rootfile.md) `/docs/rootfile.md` Gy Sy
-* [Project index](/docs/index.md) `/docs/index.md` Gy Sy
+* [Project index](index.md) `/docs/index.md` Gy Sy
 * [Level2 root](/docs/level2/2-root.md) `/docs/level2/2-root.md` Gy Sy
 * [Level2 index](/docs/level2/index.md) `/docs/level2/index.md` Gy Sy
 * [Level3 root](/docs/level2/level3/3-root.md) `/docs/level2/level3/3-root.md` Gy Sy
@@ -29,5 +29,4 @@ Praesent ultricies ipsum dolor, ac hendrerit ipsum accumsan quis. Morbi ac ex a 
 
 An image:
 
-`level2/images/baldwin.gif` Gy Sy
-![add](level2/images/baldwin.gif)
+![add](/docs/level2/images/baldwin.gif)

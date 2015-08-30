@@ -71,10 +71,5 @@ Current Directory docs/level2/level3/files
 
 An image:
 
-![add](../images/baldwin.gif) `../images/baldwin.gif` Gy Sy
+![add](/docs/level2/images/baldwin.gif) `/docs/level2/images/baldwin.gif` Gy Sy
 
-![add](/level2/images/baldwin.gif) `/level2/images/baldwin.gif` Gn Sn
-
-![add](./level2/images/baldwin.gif) `./level2/images/baldwin.gif` Gn Sn
-
-![add](../level2/images/baldwin.gif) `../level2/images/baldwin.gif` Gn Sn
