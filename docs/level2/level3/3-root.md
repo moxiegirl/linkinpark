@@ -39,8 +39,8 @@ Level2 docs/level2/files
 * [Level2 root](../level2/2-root.md) `../level2/2-root.md`  Gn Sy
 * [Level2 index](../level2/index.md) `../level2/index.md`  Gn Sy
 
-* [Level2 root](../level2/../2-root.md) `../level2/../2-root.md`  Gn Sy
-* [Level2 index](../level2/../index.md) `../level2/../index.md`  Gy* Sy wrong file
+* [Level2 root](/docs/level2/2-root.md) `/docs/level2/2-root.md`  Gn Sy
+* [Level2 index](/docs/level2/index.md) `/docs/level2/index.md`  Gy* Sy wrong file
 
 Current Directory docs/level2/level3/files
 
