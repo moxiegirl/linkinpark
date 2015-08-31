@@ -8,16 +8,8 @@ parent="level3_index"
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum dapibus facilisis. Nulla gravida nulla non mattis commodo. Cras rhoncus nibh rutrum mi dapibus imperdiet vel a felis. Praesent ultricies ipsum dolor, ac hendrerit ipsum accumsan quis. Morbi ac ex a sapien consequat malesuada vitae.
 
-* [Project root]({{< relref "linkinpark/rootfile.md" >}})
-* [Project index]({{< relref "linkinpark/index.md" >}})
 
-* [Level 2 Root]({{< relref "linkinpark/level2/2-root.md" >}})
-* [Level 2 Index]({{< relref "linkinpark/level2/index.md" >}})
-
-* [Level 3 Root]({{< relref "linkinpark/level2/level3/3-root.md" >}})
-* [Level 3 Index]({{< relref "linkinpark/level2/level3/index.md" >}})
-
-Parent docs/Root
+## Root 
 
 * [Project root](/rootfile.md) `/rootfile.md` Gn Sy
 * [Project index](/index.md) `/index.md` Gn Sy
@@ -25,7 +17,11 @@ Parent docs/Root
 * [Project root](../../rootfile.md) `../../rootfile.md` Gy Sy
 * [Project index](../../index.md) `../../index.md`  Gy Sy
 
-Level2 docs/level2/files
+* [Project root](/docs/rootfile.md) `/rootfile.md` Gn Sy
+* [Project index](/docs/index.md) `/index.md` Gn Sy
+
+
+## docs/level2 Files
 
 * [Level2 root](2-root.md) `2-root.md`  Gn Sn
 * [Level2 index](index.md) `index.md`  Gy Sy* live but goes wrong file
@@ -40,9 +36,9 @@ Level2 docs/level2/files
 * [Level2 index](../level2/index.md) `../level2/index.md`  Gn Sy
 
 * [Level2 root](/docs/level2/2-root.md) `/docs/level2/2-root.md`  Gn Sy
-* [Level2 index](/docs/level2/index.md) `/docs/level2/index.md`  Gy* Sy wrong file
+* [Level2 index](/docs/level2/index.md) `/docs/level2/index.md`  Gy Sy 
 
-Current Directory docs/level2/level3/files
+## /docs/level2/level3 Files
 
 * [Level3 root](3-root.md) `3-root.md` Gy Sn
 * [Level3 index](index.md) `index.md` Gy Sn
@@ -62,8 +58,8 @@ Current Directory docs/level2/level3/files
 * [Level3 root](docs/level2/level3/3-root.md) `docs/level2/level3/3-root.md`Gn  Sy
 * [Level3 index](docs/level2/level3/index.md) `docs/level2/level3/index.md` Gn  Sy
 
-* [Level3 root](/docs/level2/level3/3-root.md) `/docs/level2/level3/3-root.md`Gn  Sy
-* [Level3 index](/docs/level2/level3/index.md) `/docs/level2/level3/index.md` Gn  Sy
+* [Level3 root](/docs/level2/level3/3-root.md) `/docs/level2/level3/3-root.md`Gy  Sy
+* [Level3 index](/docs/level2/level3/index.md) `/docs/level2/level3/index.md` Gy  Sy
 
 
 An image:
