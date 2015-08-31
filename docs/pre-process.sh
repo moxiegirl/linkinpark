@@ -32,13 +32,21 @@ do
          -e '/^<!.*metadata]>/g' \
          -e '/^<!.*end-metadata.*>/g' {} \;
       ;;
-      "/docs/content/linkinpark/")
+      "/docs/content/boober/")
         y=${i##*/}
         find $i -type f -name "*.md" -exec ssed -R -i.old \
         -e '/^<!.*metadata]>/g' \
         -e '/^<!.*end-metadata.*>/g' \
         -e 's/(\]\()(\/docs)(.[\S]*.md)(\#.[\S]*)?(\))/\1\{\{< relref "'$dir'\3\4" >\}\}\5/g' \
         -e 's/(\]\()(\/docs)(.[\S]*)(.gif|.png|.svg)(\))/\1\/'$dir'\3\4\5/g' {} \;  
+      ;;
+      "/docs/content/linkinpark/")
+        y=${i##*/}
+        find $i -type f -name "*.md" -not -name "*.compare.md" -exec sed -i.old \
+        -e '/^<!\(--\)\{0,1\}\[\(end-\)\{0,1\}metadata\]\(--\)\{0,1\}>/g' \
+        -e 's/\(\][(]\)\(\.*\/\)*/\1/g' \
+        -e 's/\(\][(]\)\([A-Za-z0-9_/-]\{1,\}\)\(\.md\)\{0,1\}\(#\{0,1\}\(#[A-Za-z0-9_-]*\)\{0,1\}\)[)]/\1\/'$dir'\/\2\4)/g' \
+        {} \;
       ;;
       *)
         y=${i##*/}
@@ -63,4 +71,4 @@ do
 done
 
 rm -rf /docs/content/docker
-
+find $i -type f -name "*.old" -exec rm {} \;
