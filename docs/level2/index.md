@@ -46,7 +46,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum dapibu
 
 ## Images
 
-An image: ../images/baldwin.gif
+An image: images/baldwin.gif
 ![add](images/baldwin.gif)
 
 An image: /docs/level2/images/baldwin.gif
