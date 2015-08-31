@@ -49,7 +49,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum dapibu
 | [Level3 index](/docs/level2/level3/index.md) | `/docs/level2/level3/index.md`  | Y  |
 
 
-An image:
+## Images
 
 ![add](../images/baldwin.gif) ../images/baldwin.gif
 

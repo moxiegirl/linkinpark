@@ -22,6 +22,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum dapibu
 
 | Link                                  | Content                  | GH |
 |---------------------------------------|--------------------------|----|
+| [Level3 root](3-root.md)              | `3-root.md`              | Y  |
+| [Level3 index](index.md)              | `index.m                 | Y  |
 | [Level2 root](../level2/2-root.md)    | `../level2/2-root.md`    | Y  |
 | [Level2 index](../level2/index.md)    | `../level2/index.md`     | Y  |
 | [Level2 root](2-root.md)              | `2-root.md`              | Y  |
@@ -33,6 +35,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum dapibu
 
 | Link                                         | Content                         | GH |
 |----------------------------------------------|---------------------------------|----|
+| [Level3 root](3-root.md)                     | `3-root.md`                     | Y  |
+| [Level3 index](index.md)                     | `index.md`                      | Y  |
 | [Level3 root](level3/3-root.md)              | `level3/3-root.md`              | Y  |
 | [Level3 index](level3/index.md)              | `level3/index.md`               | Y  |
 | [Level3 index](../level2/level3/index.md)    | `../level2/level3/index.md`     | Y  |
