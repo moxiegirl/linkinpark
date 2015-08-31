@@ -26,21 +26,19 @@ do
       ;;
       "/docs/content/linux/")
       ;;
-      "/docs/content/docker/")
+      "/docs/content/standard/")
          y=${i##*/}
          find $i -type f -name "*.md" -exec ssed -R -i.old \
-         -e '/^<!.*metadata]>/g' \
-         -e '/^<!.*end-metadata.*>/g' {} \;
-      ;;
-      "/docs/content/boober/")
-        y=${i##*/}
-        find $i -type f -name "*.md" -exec ssed -R -i.old \
         -e '/^<!.*metadata]>/g' \
         -e '/^<!.*end-metadata.*>/g' \
-        -e 's/(\]\()(\/docs)(.[\S]*.md)(\#.[\S]*)?(\))/\1\{\{< relref "'$dir'\3\4" >\}\}\5/g' \
-        -e 's/(\]\()(\/docs)(.[\S]*)(.gif|.png|.svg)(\))/\1\/'$dir'\3\4\5/g' {} \;  
-      ;;
-      "/docs/content/linkinpark/")
+        -e 's/\(\]\)\([(]\)\(\/\)/\1\2\/'$dir'\//g' \
+        -e 's/\(\][(]\)\([A-z].*\)\(\.md\)/\1\/'$dir'\/\2/g' \
+        -e 's/\([(]\)\(.*\)\(\.md\)/\1\2/g'  \
+        -e 's/\(\][(]\)\(\.\/\)/\1\/'$dir'\//g' \
+        -e 's/\(\][(]\)\(\.\.\/\.\.\/\)/\1\/'$dir'\//g' \
+        -e 's/\(\][(]\)\(\.\.\/\)/\1\/'$dir'\//g' {} \;  
+        ;;
+      "/docs/content/registry/")
         y=${i##*/}
         find $i -type f -name "*.md" -not -name "*.compare.md" -exec sed -i.old \
         -e '/^<!\(--\)\{0,1\}\[\(end-\)\{0,1\}metadata\]\(--\)\{0,1\}>/g' \
@@ -48,12 +46,24 @@ do
         -e 's/\(\][(]\)\([A-Za-z0-9_/-]\{1,\}\)\(\.md\)\{0,1\}\(#\{0,1\}\(#[A-Za-z0-9_-]*\)\{0,1\}\)[)]/\1\/'$dir'\/\2\4)/g' \
         {} \;
       ;;
+      "/docs/content/compose/")
+        y=${i##*/}
+        find $i -type f -name "*.md" -exec ssed -R -i.old \
+        -e 's/(\]\()(?!https)(\.{1,2}\/)(.[\S]*.md)(\#.[\S]*)?(\))/\1\{\{< relref "'$dir'\/\3\4\" >\}\}\)/g' {} \;    
+      ;;
+      "/docs/content/linkinpark/")
+        y=${i##*/}
+        find $i -type f -name "*.md" -exec ssed -R -i.old \
+        -e '/^<!.*metadata]>/g' \
+        -e '/^<!.*end-metadata.*>/g' \
+        -e 's/(\]\()(\/docs)(.[\S]*.md)(\#.[\S]*)?(\))/\1\{\{< relref "'$dir'\3\4" >\}\}\5/g' \
+        -e 's/(\]\()(\/docs)(.[\S]*)(.gif|.png|.svg)(\))/\1\/'$dir'\3\4\5/g' {} \;  
+      ;;
       *)
         y=${i##*/}
         find $i -type f -name "*.md" -exec ssed -R -i.old  \
         -e '/^<!.*metadata]>/g' \
-        -e '/^<!.*end-metadata.*>/g' \
-        -e 's/(\]\()(?!https)(\.{1,2}\/){1,4}(.[\S]*.md)(\#.[\S]*)?(\))/\1\{\{< relref "'$y'\/\3\4\5" >\}\}\)/g' {} \; 
+        -e '/^<!.*end-metadata.*>/g' {} \; 
       ;;
       esac
 done
