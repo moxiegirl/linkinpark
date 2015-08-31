@@ -57,7 +57,7 @@ index](level2/level3/index.md) links.
 
 In the `docs` directory of this project, are three levels of folders and files.  At each level is a file called `index.md` and a root file.  Each page is constructed with relative links to other files.  Then notation is made whether that link works in GitHub:
 
-![add](../docs/level2/images/links-page.png)
+![add](docs/level2/images/links-page.png)
 
 
 ## How the build works
