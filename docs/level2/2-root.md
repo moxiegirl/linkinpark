@@ -28,8 +28,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum dapibu
 | [Level2 index](../level2/index.md)    | `../level2/index.md`     | Y  |
 | [Level2 root](./2-root.md)            | `./2-root.md`            | Y  |
 | [Level2 index](./index.md)            | `./index.md`             | Y  |
-| [Level3 index](/docs/level2/index.md) | `/docs/level2/index.md`  | Y  |
-| [Level3 root](/docs/level2/2-root.md) | `/docs/level2/2-root.md` | Y  |
+| [Level2 index](/docs/level2/index.md) | `/docs/level2/index.md`  | Y  |
+| [Level2 root](/docs/level2/2-root.md) | `/docs/level2/2-root.md` | Y  |
 
 ## docs/level3 Files
 
