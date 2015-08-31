@@ -17,8 +17,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum dapibu
 * [Project root](../../rootfile.md) `../../rootfile.md` Gy Sy
 * [Project index](../../index.md) `../../index.md`  Gy Sy
 
-* [Project root](/docs/rootfile.md) `/rootfile.md` Gn Sy
-* [Project index](/docs/index.md) `/index.md` Gn Sy
+* [Project root](/docs/rootfile.md) `/docs//rootfile.md` Gn Sy
+* [Project index](/docs/index.md) `/docs/index.md` Gn Sy
 
 
 ## docs/level2 Files
