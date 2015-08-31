@@ -18,7 +18,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum dapibu
 | [Project root](/docs/rootfile.md) | `/docs/rootfile.md` | Y  |
 | [Project index](/docs/index.md)   | `/docs/index.md`    | Y  |
 
-
 ## docs/level2 Files (current dir)
 
 | Link                                  | Content                  | GH |
@@ -31,8 +30,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum dapibu
 | [Level2 index](index.md)              | `index.md`               | Y  |
 | [Level3 index](/docs/level2/index.md) | `/docs/level2/index.md`  | Y  |
 | [Level3 root](/docs/level2/2-root.md) | `/docs/level2/2-root.md` | Y  |
-
-* Goes to /docs/index.md in GH
 
 ## docs/level3 Files
 
