@@ -16,7 +16,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum dapibu
 |-----------------------------------|----------------------|----|
 | [Project root](../../rootfile.md) | `../../rootfile.md`  | Y  |
 | [Project index](../../index.md)   | `../../index.md`     | Y  |
-| [Project root](/docs/rootfile.md) | `/docs//rootfile.md` | Y  |
+| [Project root](/docs/rootfile.md) | `/docs/rootfile.md`  | Y  |
 | [Project index](/docs/index.md)   | `/docs/index.md`     | Y  |
 
 
